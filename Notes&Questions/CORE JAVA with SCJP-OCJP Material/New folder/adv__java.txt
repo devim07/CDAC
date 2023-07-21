@@ -1,0 +1,81 @@
+JSTL Tags:--
+
+1)Core Tags:-used for variable support,url management flow control,etc ex:-                    \
+	   c:if,when,out,foreach,catch,remove,choose
+
+	<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
+2)Function Tags:-
+	provides a number of standard functions, most of these functions are common string manipulation functions
+	
+	<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
+
+3)Formatting Tags:-
+	 used for internationalized web sites to display and format text, the time, the date and numbers.
+	
+ 	 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"  %> 
+
+
+
+	internationalization :---- messages, currencies, date, time
+
+
+sendRedirect---method of ServletResponse
+	      client side re-direction
+	   new url generated
+
+forward---- method of requestDispatcher
+	serverSide
+	url remains same
+
+
+
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+JST SQL tag
+1> to get datasource connection
+<sql:setDataSource>
+
+2> for DML operation (Insert,Update,Delete)
+<sql:update>
+
+3> for DQL operation (Select query)
+<sql:select> 	 
+
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+in jsp:--
+include directives are used to include static files in the jsp page
+<%@include file="HtmlFilePath"%>
+
+
+where as include actions are used to include dynamic pages in the jsp page
+
+<jsp:include page="JspPagePath">-----------------include acts as request dispatcher here also same thing for forward it creates requestdispatcher obj and obj														(req,res)
+
+
+
+
+
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Annotations in HiberNate:----
+************javax.persistence
+
+1)@Entity Annotation:--
+
+	bean class
+	so it must have a no-argument constructor that is visible with at least protected scope.
+
+
+
+2)@Table Annotation:-
+		allows you to specify the details of the table that will be used to persist the entity in the database.
+3)@Id :--Primary key
+
+4)@GeneratedValue ::----it takes two parameter genearator and strategy
+
+5)@Column:-details of the column to which a field or property will be mapped 		
+
+
+
+		

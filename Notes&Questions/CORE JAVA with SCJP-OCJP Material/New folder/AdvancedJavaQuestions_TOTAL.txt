@@ -1,0 +1,100 @@
+01. What is JDBC?
+02. In which package JDBC API is given?
+03. What is JDBC Driver?
+04. How many types of JDBC Driver given in java?
+05. Explain the Types of JDBC Drivers?
+06. What are the steps to use JDBC API?
+07. What do you mean by loading driver class? How to do it?
+08. What is Connection?
+09. What are the requirements to create connection?
+10. Which class is responsible to create JDBC Connection?
+11. What is Statements?
+12. How many types of statements provided in jdbc?
+13. What is the difference between Statement and PreparedStatement?
+14. How to get Statement type object and PreparedStatement type object?
+15. Explain the ways to execute any query statement?
+16. What is ResultSet?
+17. What is traversing methods in ResultSet?
+18. What is getter methods in ResultSet?
+19. What is transaction?
+20. What is scrollable ResultSet? How to achieve it?
+21. Explain Statement v/s PreparedStatement v/s CallableStatment.
+22. Explain execute() v/s executeUpdate() v/s executeQuery()23. What is Servlet?
+24. How to create Servlet?
+25. What is web.xml file?
+26. What is container?
+27. Explain Servlet Life Cycle?
+28. Name methods to create request type specific Servlet?
+29. How to write text response using servlet?
+30. What is the difference between sendRedirect() and ReqeustDispatcher?
+31. What is the difference between forward() and include() method of RequestDispatcher?
+32. What is Session?
+33. What are the ways to track session in java?
+34. What is Cookie?
+35. What is HttpSession?
+36. Differenciate between Cookie and HttpSession?
+37. What are the Servlet Scopes? Explain them.
+38. What is Context Parameter and how to access them in Servlet?
+39. Explain HttpServletRequest and HttpServletResponse.40. What is JSP?
+41. Explain JSP Life Cycle.
+42. What are the advantages of JSP over Servlet?
+43. How many jsp scripting elements are there?
+44. Name the scripting elements?
+45. Tell syntax of all scripting elements .
+46. Explain the uses of all scripting elements.
+47. Name jsp implicit objects and the type.
+48. Explain JSP Directive?48. What is MVC?
+49. What is Java Bean Class?
+50. What is JSP Components? Name the jsp components (elements).
+51. Name JSP Standard Actions?
+52. Tell Syntax of useBean action tag.
+52. What is the use of id attribute of useBean action tag?
+53. What is the use of class attribute of useBean tag?
+54. Say syntax and use of setProperty action tag.
+55. What is significance of providing * as value to the property attribute of the setProperty tag.
+56. Say syntax and use of getProperty action tag.57. Say syntax of JSP Directives.
+58. Name JSP Dierectives and there uses.
+59. Explain the attributes of include directive.
+60. Explain the attributes of taglib directive.
+61. Name the JSP scopes and explain them.
+62. Tell syntax of JSP EL.
+63. Name implicit objects in EL.
+64. How to print the following using EL
+	application.setAttribute("course","dac");
+66. How to show request parameter using EL.
+67. How to display java bean property value using EL.
+68. What are the ways to print the value of Map ( that is in any jsp scope) using EL?
+69. How to show any java array or collection value using EL.
+70. How to send request parameter using html anchor tag?
+71. Name the methods that are used to get the cookie name and cookie value from the cookie object.
+72. How to check the cookie is attached with the request or not?
+73. How to store the bean object created using useBean tag in any jsp scope?74. What is ORM?
+75. What is hibernate?
+76. Explain SessionFactory, Session, Transaction hibernate objects.
+77. What is hibernate cfg file?
+78. What is hibernate hbm file?
+79. Which query languages are supported in hibernate?
+80. How DB portability is achieved in hibernate?
+===============================
+81. Explain following Annotation used in hibernate?
+	@Entity
+ 	@Id
+	@Table
+	@Column
+82. Query interface is used for what?
+83. Explain syntax and convension for HQL?
+84. What is the difference between get() and load() method in hibernate?
+85. Explain Criteria, ProjectionList, Projections, Restrictions in Hibernate?
+86. What is Native Query?
+88. What is Named Query?
+89. Explain inheritance stratigies in hibernate?
+90. Explain Hibernate Association Mapping?
+91. Explain fetching stratigis in hibernate?
+92. What is second level cache in hibernate?
+93. What is IOC?
+94. What is DI?
+95. What is ApplicationContext in spring?
+96. Which tag is used to do bean entry in spring?
+97. How to get bean object from spring IOC container?
+98. Which tag is used for setter DI in spring?
+99. What are the ways to achieve DI in spring?

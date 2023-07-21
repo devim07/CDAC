@@ -1,0 +1,7 @@
+oracle
+workbench
+	username: system
+	password: cdac
+	
+	username: devi
+	password: devi
